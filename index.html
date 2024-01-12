@@ -8,7 +8,7 @@
   </head>
   <body>
     <header id="header">
-      <nav id="nav-bar">
+      <nav id="nav-bar" style="position: fixed">
         <a href="#features" class="nav-link">Features</a>
         <a href="#delivery" class="nav-link">Delivery</a>
         <a href="#pricing" class="nav-link">Pricing</a>
@@ -35,7 +35,11 @@
         <div id="pricing"></div>
       </section>
       <section>
-        <form class="form" id="form">
+        <form
+          class="form"
+          id="form"
+          action="https://www.freecodecamp.com/email-submit"
+        >
           <input
             type="email"
             id="email"
@@ -43,12 +47,7 @@
             placeholder="enter your email"
             required
           />
-          <input
-            type="submit"
-            id="submit"
-            value="Submit"
-            action="https://www.freecodecamp.com/email-submit"
-          />
+          <input type="submit" id="submit" value="Submit" />
         </form>
       </section>
     </main>

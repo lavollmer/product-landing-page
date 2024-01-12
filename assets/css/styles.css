@@ -3,7 +3,7 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-header {
+#nav-bar {
   position: fixed;
   top: 0;
   width: 100%;
@@ -12,8 +12,12 @@ header {
 img {
   height: 50%;
   width: 90%;
+}
+
+main {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 @media screen and (max-width: 600px) {
