@@ -1,6 +1,9 @@
 * {
   background-color: white;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
 #nav-bar {
@@ -30,17 +33,21 @@ a.nav-link {
   background-color: black;
 }
 
-h1 {
+/* h1 {
   font-size: 70px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 10px;
-}
+  top: 70px;
+} */
 
-img {
-  height: auto;
-  max-width: 100%;
+.hero-image {
+  /* height: auto;
+  max-width: 100%; */
+  background-image: url();
+  background-position: center;
+  background-size: cover;
+  height: 50%;
 }
 
 main {
