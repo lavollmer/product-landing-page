@@ -7,11 +7,40 @@
   position: fixed;
   top: 0;
   width: 100%;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: black;
+  padding: 10px;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  display: row;
+  justify-content: space-evenly;
+  text-align: center;
+  background-color: black;
+}
+
+a.nav-link {
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+
+h1 {
+  font-size: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
 }
 
 img {
-  height: 50%;
-  width: 90%;
+  height: auto;
+  max-width: 100%;
 }
 
 main {
