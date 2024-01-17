@@ -57,6 +57,12 @@ main {
   justify-content: center;
 }
 
+#formfeatures {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 @media screen and (max-width: 600px) {
   body {
     background-color: white;
